@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url(icons/header_fon.png);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: auto;
+}
+
+.brand_fon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.h1-brand {
+    background: #F1E4E6;
+    padding-top: 335px;
+    padding-right: 331px;
+}
+
+.for-women {
+    background-image: url(./img/for-women.png);
+    background-repeat: no-repeat;
+    /*background: rgba(33, 22, 22, 0.7);*/
+    padding: 105px 103px;
+}
+
+.for-men {
+    background-image: url(./img/for-men.png);
+    background-color: rgba(33, 22, 22, 0.7);
+    background-repeat: no-repeat;
+    /*background: rgba(33, 22, 22, 0.7);*/
+    padding: 105px 125px;
+}
+
+.for-kids {
+    background-image: url(./img/for-kids.png);
+    background-repeat: no-repeat;
+    /*background: rgba(33, 22, 22, 0.7);*/
+    padding: 105px 122px;
+}
+
+
+.man_brand {
+    width: 800px;
+    height: 765px;
+    background: rgba(113, 103, 105, 0.08);
+}
+
+.brand {
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+    background: #F1E4E6;
+    padding-top: 335px;
+    padding-right: 331px;
+}
+
+/*Список*/
+.list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*бизнес женщина*/
+.business {
+    background-image: url(img/fon_business.png);
+    padding: 9px 110px 11px 108px;
+}
+
+.contacts {
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+.search {
+    padding-left: 41px;
+}
